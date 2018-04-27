@@ -42,7 +42,7 @@
         scene.add(axes);
 
         // create the ground plane
-        var planeGeometry = new THREE.PlaneGeometry(60, 20);
+        var planeGeometry = new THREE.PlaneGeometry(60, 60, 5, 5 );
         var planeMaterial = new THREE.MeshBasicMaterial({color: 0xcccccc});
         var plane = new THREE.Mesh(planeGeometry, planeMaterial);
 
